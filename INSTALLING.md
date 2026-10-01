@@ -49,21 +49,28 @@ in on, including the web version.
 
 ## 4. The notes folder
 
-SuperNoteva keeps a plain-Markdown copy of your notes in a folder on your
-Mac (by default inside Documents). macOS asks once for permission to use
-that folder: click **Allow**. You can change the folder in
-**Settings → Files & sync → Notes folder**.
+Right after you sign in, SuperNoteva asks where to keep your notes on this
+Mac:
+
+- **Keep my notes as files on this Mac** (already ticked): every note is
+  also saved as a plain Markdown file, in the folder shown. Press
+  **Choose…** to pick a different folder. macOS may ask once for permission
+  to use the folder: click **Allow**.
+- **Untick it** to keep no files on this Mac. Your notes are still saved to
+  your account and work offline in the app.
+
+You can change either later in **Settings → Files & sync**. Turning files
+off there stops updating them; it never deletes them.
 
 ## Updating
 
-There is no automatic update yet. When you're sent a newer `.dmg`:
+SuperNoteva updates itself. When a newer version is out, a notice appears
+with **Install and relaunch**: it downloads the update, finishes saving
+your notes, and reopens. You can also look for one yourself in
+**Settings → Account → Check for updates**.
 
-1. Quit SuperNoteva.
-2. Open the new `.dmg` and drag SuperNoteva onto Applications, choosing
-   **Replace**.
-
-Your notes are in your account, not in the app, so replacing it loses
-nothing. macOS may ask you to repeat step 2 above for the new copy.
+Your notes are in your account, not in the app, so an update loses
+nothing.
 
 ## Removing it
 
